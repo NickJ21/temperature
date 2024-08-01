@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <header class="header-init">
+        <h1>Weather Blog</h1>
+        <nav class="menu">
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="header-img-container">
+            <img src="img/sun.png">
+            <img src="./img/rain.png">
+            <img src="./img/cloudy.png">
+        </div>
+        <h1>Temperature Converter</h1>
+        <div class="temp-container">
+            <button class="btn-calc" onclick="convertTemperatureRange()">Convert Temperature Range</button>
+            <div id="temp">
+            </div>
+        </div>
+    </main>
+    <script src="./scripts/finalscript.js"></script>
+</body>
+</html>

@@ -4,8 +4,10 @@
     padding:0;
 }
 body{
-    font-family:Arial, Helvetica, sans-serif
-}
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(/img/sky.jpg);
+    background-size:cover;
+}   
 a{
     text-decoration:none;
     color:black;
@@ -26,6 +28,27 @@ h2,h3{
     margin-left:auto;
     margin-right:auto;
 }
+.menu{
+    display: flex;
+    gap:30px;
+}
+.btn-ok{
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+
+/*header*/
+.header-init{
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    height:100px;
+    align-items: center;
+}
+.menu a{
+    color:white;
+}
 
 
 /*body*/
@@ -37,16 +60,53 @@ h2,h3{
     background-color: rgb(8, 186, 8);
     border:none;
     padding:5px;
-    border-radius:5px;
+    padding-right:10px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
     color:white;
+}
+.container h1{
+    text-align: center;
+    color:rgb(192, 22, 178);
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 50px;
+    margin-bottom:20px;
 }
 .temp-container{
     display:flex;
     gap:10px;
+    background-color:white;
+    opacity: 0.8;
+    border-radius:50px;
 }
 .temp-container p{
     background-color: #dedede;
     padding-left:5px;
     padding-right:5px;
     border-radius: 5px;
+}
+
+/*contact*/
+.form-container{
+    background-color: #dedede;
+    padding:15px;
+    border-radius:15px;
+}
+.personal-container{
+    border-radius:5px;
+}
+.input-container label{
+    width:30%;
+    margin-right:-60px;
+    padding:5px;
+}
+.input-container input{
+    width:70%;
+}
+.input-container textarea{
+    width:70%;
+}
+.input-container{
+    display:flex;
 }
